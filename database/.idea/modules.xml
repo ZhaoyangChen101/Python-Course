@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../../python学习/pythonProject/object_oriented/Exceptions/.idea/Exceptions.iml" filepath="$PROJECT_DIR$/../../../python学习/pythonProject/object_oriented/Exceptions/.idea/Exceptions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Modules_Function/.idea/Modules_Function.iml" filepath="$PROJECT_DIR$/../Modules_Function/.idea/Modules_Function.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MusicBrowser/.idea/MusicBrowser.iml" filepath="$PROJECT_DIR$/MusicBrowser/.idea/MusicBrowser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/database.iml" filepath="$PROJECT_DIR$/.idea/database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../python学习/pythonProject/object_oriented/genexample/.idea/genexample.iml" filepath="$PROJECT_DIR$/../../../python学习/pythonProject/object_oriented/genexample/.idea/genexample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../python学习/pythonProject/object_oriented/genexample/musicfiles/.idea/musicfiles.iml" filepath="$PROJECT_DIR$/../../../python学习/pythonProject/object_oriented/genexample/musicfiles/.idea/musicfiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../object_oriented/.idea/object_oriented.iml" filepath="$PROJECT_DIR$/../object_oriented/.idea/object_oriented.iml" />
+    </modules>
+  </component>
+</project>

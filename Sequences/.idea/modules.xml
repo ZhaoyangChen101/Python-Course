@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../DictAndSet/.idea/DictAndSet.iml" filepath="$PROJECT_DIR$/../DictAndSet/.idea/DictAndSet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Input_Output/.idea/FileIO.iml" filepath="$PROJECT_DIR$/../Input_Output/.idea/FileIO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Function_Intro/.idea/Function_Intro.iml" filepath="$PROJECT_DIR$/../Function_Intro/.idea/Function_Intro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Modules_Function/.idea/Modules_Function.iml" filepath="$PROJECT_DIR$/../Modules_Function/.idea/Modules_Function.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ProgramFlow/.idea/ProgramFlow.iml" filepath="$PROJECT_DIR$/../ProgramFlow/.idea/ProgramFlow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Sequences.iml" filepath="$PROJECT_DIR$/.idea/Sequences.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../in-class exercise/.idea/in-class exercise.iml" filepath="$PROJECT_DIR$/../in-class exercise/.idea/in-class exercise.iml" />
+    </modules>
+  </component>
+</project>

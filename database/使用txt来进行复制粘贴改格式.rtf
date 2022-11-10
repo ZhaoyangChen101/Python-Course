@@ -1,0 +1,65 @@
+{\rtf1\ansi\ansicpg936\cocoartf2577
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset134 PingFangSC-Regular;\f1\fnil\fcharset0 Menlo-Regular;\f2\fswiss\fcharset0 Helvetica;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgray\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww13560\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \CocoaLigature0 \'d2\'fd\'ba\'c5\'a3\'ba
+\f1 \
+"  \
+
+\f0 \
+\'b8\'c4\'d6\'ae\'c7\'b0\'a3\'ba
+\f1 \
+SELECT artists.name, albums.name, songs.track, songs.title FROM songs INNER JOIN albums ON songs.album = albums._id\
+   ...> INNER JOIN artists on albums.artist = artists._id\
+   ...> WHERE albums._id = 19\
+   ...> ORDER BY artists.name, albums.name, songs.track\
+   ...> COLLATE NOCASE;\
+
+\f0 \'b8\'c4\'d6\'ae\'ba\'f3\'a3\'ba
+\f2\fs24 \cf0 \CocoaLigature1 \
+
+\f1\fs22 \cf2 \CocoaLigature0 SELECT artists.name, albums.name, songs.track, songs.title FROM songs INNER JOIN albums ON songs.album = albums._id\
+INNER JOIN artists on albums.artist = artists._id\
+WHERE albums._id = 19\
+ORDER BY artists.name, albums.name, songs.track\
+COLLATE NOCASE;
+\f0 \
+\
+
+\f1 SELECT artists.name, albums.name, songs.track, songs.title FROM songs INNER JOIN albums ON songs.album = albums._id\
+INNER JOIN artists on albums.artist = artists._id\
+WHERE songs.title LIKE "%doctor%"\
+ORDER BY artists.name, albums.name, songs.track\
+COLLATE NOCASE;\
+\
+SELECT artists.name, albums.name, songs.track, songs.title FROM songs INNER JOIN albums ON songs.album = albums._id\
+INNER JOIN artists on albums.artist = artists._id\
+WHERE artists.name LIKE "%jefferson%"\
+ORDER BY artists.name, albums.name, songs.track\
+COLLATE NOCASE;\
+\
+# AS\
+CREATE VIEW artist_list AS\
+SELECT artists.name AS artist, albums.name AS album, songs.track, songs.title FROM songs\
+INNER JOIN albums on songs.album = albums._id\
+INNER JOIN artists on albums.artist = artists._id\
+ORDER BY artists.name, albums.name, songs.track\
+\
+\
+# challenge\
+SELECT songs.title, songs.track FROM songs INNER JOIN albums WHERE albums.name = "Forbidden"\
+ORDER BY songs.track;\
+\
+SELECT songs.title FROM songs \
+INNER JOIN albums ON songs.album = albums._id\
+INNER JOIN artists ON albums.artist = artists._id\
+WHERE artists.name = "Deep Purple";\
+\
+\
+\
+\
+}

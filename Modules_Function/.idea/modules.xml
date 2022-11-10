@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Function_Intro/.idea/Function_Intro.iml" filepath="$PROJECT_DIR$/../Function_Intro/.idea/Function_Intro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../object_oriented/Game/.idea/Game.iml" filepath="$PROJECT_DIR$/../object_oriented/Game/.idea/Game.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Modules_Function.iml" filepath="$PROJECT_DIR$/.idea/Modules_Function.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../object_oriented/.idea/object_oriented.iml" filepath="$PROJECT_DIR$/../object_oriented/.idea/object_oriented.iml" />
+    </modules>
+  </component>
+</project>
